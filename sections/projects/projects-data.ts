@@ -1,23 +1,5 @@
 export const PROJECTS = [
     {
-        title: "ETLE Nasional Dashboard",
-        description:
-            "Enterprise dashboard system for monitoring and managing traffic violation data with modular frontend architecture.",
-
-        image: "/projects/etle.png",
-
-        tech: [
-            "Vue 3",
-            "TypeScript",
-            "Vuetify",
-            "Axios",
-        ],
-
-        github: "#",
-        demo: "#",
-    },
-
-    {
         title: "DineFlow POS",
         description:
             "Modern restaurant POS interface focused on fast workflows, responsive layouts, and intuitive cashier experience.",
@@ -25,29 +7,31 @@ export const PROJECTS = [
         image: "/projects/dineflow.png",
 
         tech: [
-            "Next.js",
+            "React",
+            "Vite",
+            "JavaScript",
             "Tailwind CSS",
-            "TypeScript",
         ],
 
-        github: "#",
-        demo: "#",
+        github: "https://github.com/mateusdev21/dineflow-frontend",
+        demo: "https://dineflow-frontend-six.vercel.app/",
     },
 
     {
-        title: "Clinic Management System",
+        title: "Synapse",
         description:
-            "Multi-role clinic management system with scalable frontend structure and reusable component architecture.",
+            "AI-powered productivity workspace designed to help developers and creators manage conversations, organize reusable prompts, store code snippets, and streamline daily workflows in one modern and interactive environment.",
 
-        image: "/projects/booking-villa.png",
+        image: "/projects/synapse.png",
 
         tech: [
-            "React",
+            "Vue 3",
+            "Vite",
+            "Typscript",
             "Tailwind CSS",
-            "Laravel",
         ],
 
-        github: "#",
-        demo: "#",
+        github: "https://github.com/mateusdev21/synapse",
+        demo: "https://synapse-indol-five.vercel.app/",
     },
 ];
