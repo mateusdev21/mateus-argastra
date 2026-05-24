@@ -61,6 +61,7 @@ export default function ProjectCard({
                 <div className="mt-8 flex items-center gap-4">
                     <Link
                         href={github}
+                        target="_blank"
                         className="inline-flex items-center gap-2 text-sm font-medium text-zinc-700 transition hover:text-black dark:text-zinc-300 dark:hover:text-white"
                     >
                         <FaGithub size={18} />
@@ -69,6 +70,7 @@ export default function ProjectCard({
 
                     <Link
                         href={demo}
+                        target="_blank"
                         className="inline-flex items-center gap-2 text-sm font-medium text-zinc-700 transition hover:text-black dark:text-zinc-300 dark:hover:text-white"
                     >
                         <ArrowUpRight size={18} />
