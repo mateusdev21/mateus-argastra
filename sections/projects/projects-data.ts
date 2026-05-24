@@ -1,20 +1,22 @@
+import { image } from "framer-motion/client";
+import { title } from "process";
+
 export const PROJECTS = [
     {
-        title: "DineFlow POS",
+        title: "ScoutX",
         description:
-            "Modern restaurant POS interface focused on fast workflows, responsive layouts, and intuitive cashier experience.",
+            "Modern football analytics dashboard that delivers player scouting, tactical insights, match analysis, and recruitment workflows through an interactive and data-driven user experience.",
 
-        image: "/projects/dineflow.png",
+        image: "/projects/scoutx.png",
 
         tech: [
-            "React",
-            "Vite",
-            "JavaScript",
+            "Next.js",
+            "Typscript",
             "Tailwind CSS",
         ],
 
-        github: "https://github.com/mateusdev21/dineflow-frontend",
-        demo: "https://dineflow-frontend-six.vercel.app/",
+        github: "https://github.com/mateusdev21/scoutx",
+        demo: "https://scoutx-one.vercel.app/",
     },
 
     {
@@ -50,6 +52,39 @@ export const PROJECTS = [
 
         github: "https://github.com/mateusdev21/meylda-budi-ningtyas",
         demo: "https://meylda-budi-ningtyas.vercel.app/",
+    },
+
+    {
+        title: "DineFlow POS",
+        description:
+            "Modern restaurant POS interface focused on fast workflows, responsive layouts, and intuitive cashier experience.",
+
+        image: "/projects/dineflow.png",
+
+        tech: [
+            "React",
+            "Vite",
+            "JavaScript",
+            "Tailwind CSS",
+        ],
+
+        github: "https://github.com/mateusdev21/dineflow-frontend",
+        demo: "https://dineflow-frontend-six.vercel.app/",
+    },
+
+    {
+        title: "ETLE Nasional",
+        description:
+            "ETLE Nasional is a web application designed to provide users with real-time information about traffic violations and related data across Indonesia, utilizing data from the national ETLE (Electronic Traffic Law Enforcement) system.",
+        image: "/projects/etle.png",
+        tech: [
+            "Vue 3",
+            "Vite",
+            "Typscript",
+            "Tailwind CSS",
+        ],
+        github: "#",
+        demo: "https://etle-pmj.id/",
     },
 
     {
